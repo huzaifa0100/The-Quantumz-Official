@@ -32428,6 +32428,14 @@ html, body {
   min-width: 320px !important;
 }
 
+.eng-mod{
+  left: 80% !important;
+}
+
+.sol-mod{
+  left: 65% !important;
+}
+
 .service_card2:after{
   background: linear-gradient(135deg, #3e66f3, #7d5fff) !important;
 }
