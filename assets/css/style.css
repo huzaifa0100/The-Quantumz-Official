@@ -32436,6 +32436,56 @@ html, body {
   left: 65% !important;
 }
 
+.eng-bg{
+  background-color: #f9f9f9 !important;
+}
+
+.wrap-bg{
+  background-color: #F8F8F8 !important;
+}
+
+.choose-tabs-tabs .nav-link{
+  /* background: white !important; */
+  border: 1px solid #F8F8F8 !important;
+}
+
+.tabs-tabs.nav-tabs .nav-link .active{
+  background-color: #3e66f3 !important;
+}
+
+.service_card2{
+  height: 450px;
+}
+
+.img-boxx{
+  text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.brand-sec1:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--title-color);
+  border-radius: inherit;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 11px, calc(100% - 70px) 50%, 100% calc(100% - 11px), 100% 100%, 0 100%, 0 calc(100% - 11px), 70px 50%, 0 11px);
+  clip-path: polygon(0 0, 100% 0, 100% 11px, calc(100% - 70px) 50%, 100% calc(100% - 11px), 100% 100%, 0 100%, 0 calc(100% - 11px), 70px 50%, 0 11px);
+  z-index: -1;
+}
+
+.badges-adj{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 479px){
+  .img_badges{
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
 .service_card2:after{
   background: linear-gradient(135deg, #3e66f3, #7d5fff) !important;
 }
