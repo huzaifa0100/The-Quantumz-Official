@@ -23107,8 +23107,8 @@ span.select2-selection.select2-selection--single:focus {
 .choose-tabs-tabs.nav-tabs .nav-link:focus,
 .choose-tabs-tabs.nav-tabs .nav-link:hover {
   color: var(--white-color);
-  background-color: var(--theme-color);
-  border-color: var(--theme-color);
+  background-color: #9eb2f8;
+  border-color: #9eb2f8;
 }
 
 .choose-tabs-tabs.nav-tabs .nav-item.show .nav-link,
@@ -23122,14 +23122,14 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background: #1D2128;
+  background: white;
   padding: 18px 40px;
   font-family: var(--title-font);
   font-size: 20px;
   line-height: 20px;
   font-weight: 600;
   min-width: 330px;
-  color: var(--white-color);
+  color: black;
   text-align: left;
   display: block;
   box-shadow: none;
