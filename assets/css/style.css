@@ -21954,9 +21954,10 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   z-index: 4;
   border-radius: 10px;
-  max-width: 1420px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  /* max-width: 1420px; */
+  /* margin-left: 12px;
+  margin-right: 12px; */
   /* Small devices */
 }
 
@@ -23054,7 +23055,7 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  box-shadow: 0px 16px 48px 0px rgba(18, 20, 26, 0.64);
+  box-shadow: 0px 10px 50px 0px rgba(18, 20, 26, 0.2);
   /* Large devices */
   /* Medium devices */
 }
@@ -23107,8 +23108,8 @@ span.select2-selection.select2-selection--single:focus {
 .choose-tabs-tabs.nav-tabs .nav-link:focus,
 .choose-tabs-tabs.nav-tabs .nav-link:hover {
   color: var(--white-color);
-  background-color: var(--theme-color);
-  border-color: var(--theme-color);
+  background-color: #a6bbff;
+  border-color: #a6bbff;
 }
 
 .choose-tabs-tabs.nav-tabs .nav-item.show .nav-link,
@@ -23201,8 +23202,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .choose-wrapper .choose-image {
-  min-width: 276px;
-  height: 300px;
+  /* min-width: 276px;
+  height: 300px; */
   border-radius: 30px;
   /* Large devices */
 }
@@ -32102,6 +32103,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 150px !important;
+    height: 60vh;
   }
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
@@ -32449,12 +32451,13 @@ html, body {
   min-height: 30vh;
 }
 
-.choose-wrapper{
+/* .choose-wrapper{
   padding-right: 0px !important;
-}
+} */
 
 .choose-wrapper .choose-image{
-  min-width: 320px !important;
+  min-width: 350px;
+  min-height: 350px;
 }
 
 .eng-mod{
