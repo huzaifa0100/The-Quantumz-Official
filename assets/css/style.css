@@ -23107,8 +23107,8 @@ span.select2-selection.select2-selection--single:focus {
 .choose-tabs-tabs.nav-tabs .nav-link:focus,
 .choose-tabs-tabs.nav-tabs .nav-link:hover {
   color: var(--white-color);
-  background-color: #9eb2f8;
-  border-color: #9eb2f8;
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
 }
 
 .choose-tabs-tabs.nav-tabs .nav-item.show .nav-link,
