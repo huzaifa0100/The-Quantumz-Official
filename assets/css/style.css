@@ -32242,7 +32242,36 @@ span.select2-selection.select2-selection--single:focus {
 /* Medium mobile devices */
 @media only screen and (min-width: 480px) and (max-width: 599px) {
   /* Your styles for medium mobile devices */
+  .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
+    margin: 4.25rem 0px;
+    height: 500px !important;
+    width: 300px !important;
+    padding: 0px 0px !important;
+  }
 
+  .btn01 {
+    padding: 1rem !important;
+  }
+
+  .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
+    margin-left: 50px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .logo-50 {
+    width: 100px;
+  }
+
+  .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
+    /* font-size: 10px !important; */
+    line-height: 15px !important;
+  }
+
+  .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
+    padding-left: 20vw !important;
+    height: 75vh !important;
+  }
 }
 
 /* Small mobile devices */
