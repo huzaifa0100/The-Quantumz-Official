@@ -32506,6 +32506,15 @@ html, body {
   z-index: -1;
 }
 
+@media screen and (max-width: 768px){
+  .cursor{
+    display: none !important;
+  }
+  .cursor2{
+    display: none !important;
+  }
+}
+
 .badges-adj{
   display: flex;
   justify-content: space-around;
