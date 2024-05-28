@@ -32523,6 +32523,7 @@ html, body {
 .badges-adj{
   display: flex;
   justify-content: space-around;
+  margin: 0 140px;
 }
 
 @media only screen and (max-width: 479px){
