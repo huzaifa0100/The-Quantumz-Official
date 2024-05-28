@@ -29270,6 +29270,7 @@ span.select2-selection.select2-selection--single:focus {
   text-align: center;
   padding: 30px 20px;
   max-width: 230px;
+  height: 340px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -32070,7 +32071,7 @@ span.select2-selection.select2-selection--single:focus {
     font-size: 4.5rem !important;
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
     ;
   }
 
@@ -32097,7 +32098,7 @@ span.select2-selection.select2-selection--single:focus {
     font-size: 4.5rem !important;
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
     ;
   }
 
@@ -32125,7 +32126,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
@@ -32161,7 +32162,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
@@ -32188,7 +32189,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
     ;
   }
 
@@ -32227,7 +32228,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
     ;
   }
 
@@ -32258,7 +32259,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   .logo-50 {
@@ -32294,7 +32295,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   .logo-50 {
@@ -32327,7 +32328,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-f0 {
     margin-left: 50px !important;
     margin-top: 0px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
   }
 
   .logo-50 {
@@ -32369,18 +32370,17 @@ font-size: 1rem;
 }
 
 .arrow_01 {
-  top: 7% !important;
-  left: 20rem !important;
+  top: 12% !important;
+  left: 100px !important;
 }
 
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
-  line-height: normal !important;
   font-weight: normal !important;
 }
 
 .arrow_02 {
-  top: 7% !important;
-  left: 26rem !important;
+  top: 12% !important;
+  left: 200px !important;
 }
 
 .logo-slider .swiper-wrapper {
@@ -32513,6 +32513,11 @@ html, body {
   .cursor2{
     display: none !important;
   }
+}
+
+.clutch{
+  top: 2rem;
+  left: 5rem;
 }
 
 .badges-adj{
