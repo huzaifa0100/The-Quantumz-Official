@@ -7566,7 +7566,8 @@ a.text-theme:hover,
   content: "";
   height: 100%;
   width: calc(100% - 10px);
-  background-color: var(--title-color);
+  background-color: var(--smoke-color2);
+  /* background-color: var(--title-color); */
   position: absolute;
   top: 0;
   left: 0;

@@ -1121,3 +1121,49 @@
     //   }
     
 })(jQuery);
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const blogsPerPage = 2;
+    const blogs = document.querySelectorAll('.th-blog');
+    const totalPages = Math.ceil(blogs.length / blogsPerPage);
+    let currentPage = 1;
+
+    function showPage(page) {
+        currentPage = page;
+        let start = (page - 1) * blogsPerPage;
+        let end = start + blogsPerPage;
+
+        blogs.forEach((blog, index) => {
+            if (index >= start && index < end) {
+                blog.style.display = 'block';
+            } else {
+                blog.style.display = 'none';
+            }
+        });
+
+        document.querySelector('.pageNumbers').innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+            let pageNum = document.createElement('li');
+            pageNum.classList.add('control');
+            pageNum.innerHTML = `<a>${i}</a>`;
+            pageNum.addEventListener('click', () => showPage(i));
+            document.querySelector('.pageNumbers').appendChild(pageNum);
+        }
+
+        document.querySelectorAll('.pageNumbers li')[page - 1].classList.add('active');
+    }
+
+    document.getElementById('prev').addEventListener('click', () => {
+        if (currentPage > 1) showPage(currentPage - 1);
+    });
+
+    document.getElementById('next').addEventListener('click', () => {
+        if (currentPage < totalPages) showPage(currentPage + 1);
+    });
+
+    showPage(1); // Initialize the first page view
+});
+
