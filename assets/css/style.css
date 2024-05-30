@@ -32526,6 +32526,21 @@ html, body {
   justify-content: space-around;
   margin: 0 140px;
 }
+.pagination-controls .pagination .active a{
+  background-color: #3e66f3 !important;
+  color: white;
+}
+.th-pagination .pagination .control :hover{
+  color: white;
+  background-color: #87a2fb;
+}
+
+.th-pagination .pagination .control a{
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
 
 @media only screen and (max-width: 479px){
   .img_badges{

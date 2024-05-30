@@ -1126,7 +1126,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const blogsPerPage = 2;
+    const blogsPerPage = 3;
     const blogs = document.querySelectorAll('.th-blog');
     const totalPages = Math.ceil(blogs.length / blogsPerPage);
     let currentPage = 1;
