@@ -2300,7 +2300,7 @@ textarea.is-invalid {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--title-color);
+  background-color: var(--title-color) !important;
   z-index: -1;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
@@ -2324,7 +2324,7 @@ textarea.is-invalid {
 
 .th-btn:hover,
 .th-btn.active {
-  color: var(--white-color);
+  color: var(--white-color) !important;
   box-shadow: none;
 }
 
@@ -16665,11 +16665,12 @@ span.select2-selection.select2-selection--single:focus {
 
 .achivement-tab button.active {
   background: var(--theme-color);
+  border-radius: 50rem !important;
 }
 
-.achivement-tab button.active:after {
+/* .achivement-tab button.active:after {
   opacity: 1;
-}
+} */
 
 .achivement-tab .indicator {
   position: absolute;
@@ -23077,10 +23078,28 @@ span.select2-selection.select2-selection--single:focus {
   /* Medium devices */
 }
 
+ /* .dashed-border {
+  position: relative;
+  height: 0; /* height set to 0 since we're using a pseudo-element --
+}
+
+.dashed-border::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px; /* Adjust the height as needed --
+  width: 100px; /* Adjust the width as needed --
+  border: 2px dashed black; /* Adjust the border width as needed --
+  border-radius: 5px; /* Adjust for rounded ends --
+} */
+
 .choose-tabs-tabs.nav-tabs {
   border-bottom: none;
   padding: 60px;
   display: block;
+  border-right: black dashed;
   /* Large devices */
   /* Medium devices */
   /* Extra small devices */
@@ -23109,8 +23128,8 @@ span.select2-selection.select2-selection--single:focus {
 .choose-tabs-tabs.nav-tabs .nav-link:focus,
 .choose-tabs-tabs.nav-tabs .nav-link:hover {
   color: var(--white-color);
-  background-color: #a6bbff;
-  border-color: #a6bbff;
+  /* background-color: #a6bbff;
+  border-color: #a6bbff; */
 }
 
 .choose-tabs-tabs.nav-tabs .nav-item.show .nav-link,
@@ -32524,7 +32543,7 @@ html, body {
 .badges-adj{
   display: flex;
   justify-content: space-around;
-  margin: 0 140px;
+  margin: 0 200px;
 }
 .pagination-controls .pagination .active a{
   background-color: #3e66f3 !important;
@@ -32573,6 +32592,10 @@ html, body {
 /* Extra large desktops (1600px and above) */
 @media (min-width: 1600px) {
 
+}
+
+.sol_tabs{
+  border-radius: 50rem;
 }
 
 
