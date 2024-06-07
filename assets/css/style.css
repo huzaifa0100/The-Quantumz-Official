@@ -108,8 +108,8 @@ Version: 1.0.0
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1220px;
   --container-gutters: 24px;
-  --section-space: 120px;
-  --section-space-mobile: 80px;
+  --section-space: 80px;
+  --section-space-mobile: 60px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
 }
@@ -6090,7 +6090,7 @@ a.text-theme:hover,
   width: 100%;
   max-width: var(--main-container);
   padding: 20px 15px 23px 15px;
-  left: 50%;
+  left: 45%;
   -webkit-transform: scaleY(0) translateX(-50%);
   -ms-transform: scaleY(0) translateX(-50%);
   transform: scaleY(0) translateX(-50%);
