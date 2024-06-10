@@ -32682,6 +32682,15 @@ body {
   }
 
 }
+@media (min-width: 1428.99px){
+  .d_block_nav{
+    display: inline-block !important;
+  }
+
+  .btn_blck{
+  display: none !important;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 991px) and (max-width: 1299.99px) {
@@ -32716,13 +32725,21 @@ body {
 
 }
 
+.overlay_blk {
+  display: block;
+  width: 100%; /* Ensure the image covers the container */
+  height: auto;
+  filter: brightness(0.5); /* Adjust the brightness to make the image darker */
+}
+
+
 .bar_center{
   justify-content: center;
   display: flex;
 }
 
 .logo_head{
-  height: 60px;
+  height: 60px !important;
 }
 .sol_tabs {
   border-radius: 50rem;
