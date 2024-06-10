@@ -21957,7 +21957,7 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   z-index: 4;
   border-radius: 10px;
-  width: 100%;
+  width: 70%;
   /* max-width: 1420px; */
   /* margin-left: 12px;
   margin-right: 12px; */
@@ -32557,7 +32557,7 @@ body {
 .badges-adj {
   display: flex;
   justify-content: space-around;
-  margin: 0 200px;
+  margin: 0 300px;
 }
 
 .pagination-controls .pagination .active a {
@@ -32577,8 +32577,8 @@ body {
 }
 
 .img_badges {
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 80px !important;
   border-radius: 10px;
 }
 
@@ -32716,6 +32716,10 @@ body {
 
 }
 
+.bar_center{
+  justify-content: center;
+  display: flex;
+}
 
 .logo_head{
   height: 60px;
