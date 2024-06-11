@@ -32755,6 +32755,10 @@ body {
   max-height: 55px !important;
 }
 
+.white_overlay{
+  filter: brightness(2) !important;
+}
+
 .sol_tabs {
   border-radius: 50rem;
 }
