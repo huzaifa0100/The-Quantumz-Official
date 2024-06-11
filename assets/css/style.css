@@ -32543,7 +32543,7 @@ body {
   position: absolute;
   inset: 0;
   /* background-color: var(--title-color); */
-  background-color: #1D0E24;
+  background-color: #eff1f9;
   border-radius: inherit;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 11px, calc(100% - 70px) 50%, 100% calc(100% - 11px), 100% 100%, 0 100%, 0 calc(100% - 11px), 70px 50%, 0 11px);
   clip-path: polygon(0 0, 100% 0, 100% 11px, calc(100% - 70px) 50%, 100% calc(100% - 11px), 100% 100%, 0 100%, 0 calc(100% - 11px), 70px 50%, 0 11px);
@@ -32578,7 +32578,7 @@ body {
   } */
   .img_badges {
     width: 70px !important;
-    height: 65px !important;
+    height: 70px !important;
   }
 }
 
@@ -32600,7 +32600,7 @@ body {
 
 .img_badges {
   width: 100px !important;
-  height: 80px !important;
+  height: 100px !important;
   border-radius: 10px;
 }
 
