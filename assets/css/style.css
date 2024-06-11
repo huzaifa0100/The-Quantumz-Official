@@ -6491,11 +6491,18 @@ a.text-theme:hover,
 }
 
 /* Medium Large devices */
-@media (max-width: 1399px) {
+ /* @media (max-width: 1399px) {
   .header-layout3 .header-button .th-btn {
     display: none;
   }
+} */
+
+@media (min-width: 992px) {
+  .mar_right{
+  margin-right: 1rem;
+  }
 }
+
 
 /* Header 4 ---------------------------------- */
 .header-layout4 {
@@ -17883,7 +17890,8 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 1299px) {
   .year-counter.style2 {
-    right: 20px;
+    right: -15px;
+    top: 15px;
   }
 }
 
@@ -21957,7 +21965,7 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   z-index: 4;
   border-radius: 10px;
-  width: 70%;
+  width: 70vw;
   /* max-width: 1420px; */
   /* margin-left: 12px;
   margin-right: 12px; */
@@ -32155,7 +32163,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 9.00rem 0px;
     height: 500px !important;
-    width: 550px !important;
+    width: 450px !important;
     padding: 20px 0px !important;
   }
 
@@ -32190,12 +32198,13 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 50px !important;
+    height: 700px !important
   }
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 9.00rem 0px;
-    height: 700px !important;
-    width: 550px !important;
+    height: 450px !important;
+    width: 500px !important;
     padding: 20px 0px !important;
   }
 
@@ -32223,7 +32232,7 @@ span.select2-selection.select2-selection--single:focus {
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 9.00rem 0px;
     height: 450px !important;
-    width: 550px !important;
+    width: 450px !important;
     padding: 20px 0px !important;
   }
 
@@ -32239,9 +32248,9 @@ span.select2-selection.select2-selection--single:focus {
   /* Your styles for large mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 75vh;
-    width: 60vw;
-    padding-left: 50px !important;
+    height: 450px;
+    width: 400px;
+    /* padding-left: 50px !important; */
   }
 
   .btn01 {
@@ -32297,7 +32306,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 20vw !important;
-    height: 75vh !important;
+    height: 700px !important;
   }
 }
 
@@ -32307,7 +32316,7 @@ span.select2-selection.select2-selection--single:focus {
   /* Your styles for small mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 400px !important;
+    height: 570px !important;
     width: 250px !important;
     padding: 0px 0px !important;
   }
@@ -32333,6 +32342,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 20vw !important;
+    height: 700px !important;
   }
 }
 
@@ -32340,7 +32350,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 500px !important;
+    height: 550px !important;
     width: 250px !important;
     padding: 0px 0px !important;
   }
@@ -32361,7 +32371,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 40px !important;
-    height: 110vh !important;
+    height: 700px !important;
   }
 
 }
@@ -32378,6 +32388,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
   color: #737887 !important;
+  line-height: 17px !important;
 }
 
 
@@ -32557,7 +32568,18 @@ body {
 .badges-adj {
   display: flex;
   justify-content: space-around;
-  margin: 0 300px;
+  margin: 0 15vw;
+}
+
+@media (min-width: 1024px) and (max-width: 1439.99px) {
+
+  /* .badges-adj {
+    margin: 0 10vw;
+  } */
+  .img_badges {
+    width: 70px !important;
+    height: 65px !important;
+  }
 }
 
 .pagination-controls .pagination .active a {
@@ -32584,12 +32606,12 @@ body {
 
 @media (max-width: 768px) {
   .img_badges {
-    width: 65px !important;
-    height: 65px !important;
+    width: 50px !important;
+    height: 50px !important;
   }
 
   .badges-adj {
-    margin: 0 110px;
+    margin: 0 15vw;
   }
 }
 
@@ -32597,18 +32619,6 @@ body {
   background: linear-gradient(135deg, #3e66f3, #7d5fff) !important;
 }
 
-/* Small desktops and large tablets (between 768px and 1024px) */
-@media (min-width: 768px) and (max-width: 1023px) {}
-
-/* Medium desktops (between 1024px and 1280px) */
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .clutch {}
-}
-
-/* Large desktops (between 1280px and 1600px) */
-@media (min-width: 1280px) and (max-width: 1599px) {}
-
-/* Extra large desktops (1600px and above) */
 @media (min-width: 1600px) {}
 
 .custom_sol {
@@ -32682,13 +32692,14 @@ body {
   }
 
 }
-@media (min-width: 1428.99px){
-  .d_block_nav{
+
+@media (min-width: 1428.99px) {
+  .d_block_nav {
     display: inline-block !important;
   }
 
-  .btn_blck{
-  display: none !important;
+  .btn_blck {
+    display: none !important;
   }
 }
 
@@ -32727,20 +32738,23 @@ body {
 
 .overlay_blk {
   display: block;
-  width: 100%; /* Ensure the image covers the container */
+  width: 100%;
+  /* Ensure the image covers the container */
   height: auto;
-  filter: brightness(0.5); /* Adjust the brightness to make the image darker */
+  filter: brightness(0.5);
+  /* Adjust the brightness to make the image darker */
 }
 
 
-.bar_center{
+.bar_center {
   justify-content: center;
   display: flex;
 }
 
-.logo_head{
-  height: 60px !important;
+.logo_head {
+  max-height: 55px !important;
 }
+
 .sol_tabs {
   border-radius: 50rem;
 }
