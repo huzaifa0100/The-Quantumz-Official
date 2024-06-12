@@ -87,8 +87,8 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #684DF4;
-  --theme-color2: #684DF4;
+  --theme-color: #470175;
+  --theme-color2: #470175;
   --title-color: #141D38;
   --body-color: #737887;
   --smoke-color: #F5F5F5;
@@ -32809,8 +32809,12 @@ body {
   background-color: #141d38 !important;
 }
 
+.top_mg{
+  margin-top: -1vh;
+}
+
 .th-btn.th-bttn:before,
 .th-btn.th-bttn:after {
-  background-color: #3e66f3 !important;
+  background-color: var(--theme-color) !important;
 }
 /*# sourceMappingURL=style.css.map */
