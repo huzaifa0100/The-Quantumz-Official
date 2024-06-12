@@ -32191,6 +32191,17 @@ span.select2-selection.select2-selection--single:focus {
     margin-top: 1rem !important;
   }
 
+  .arrow_01 {
+    top: 6rem !important;
+    left: 100px !important;
+  }
+  
+  .arrow_02 {
+    top: 6rem !important;
+    left: 170px !important;
+  }
+  
+
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 100px !important;
     height: 80vh !important
@@ -32426,16 +32437,6 @@ span.select2-selection.select2-selection--single:focus {
 
 .hr-s {
   margin: 0rem 2rem !important;
-}
-
-.arrow_01 {
-  top: 6rem;
-  left: 100px;
-}
-
-.arrow_02 {
-  top: 6rem;
-  left: 170px;
 }
 
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
