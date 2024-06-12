@@ -32604,6 +32604,14 @@ body {
   border-radius: 10px;
 }
 
+.card_mod {
+  /* border: solid grey; */
+}
+.card_mod0 {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
   .img_badges {
     width: 50px !important;
