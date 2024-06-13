@@ -15782,7 +15782,7 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--theme-color);
   color: var(--white-color);
   font-size: 24px;
-  box-shadow: 0px 6px 20px rgba(0, 96, 255, 0.6);
+  box-shadow: 0px 6px 20px rgba(104, 15, 167, 0.5);
   border-radius: 5px;
   border: none;
 }
@@ -26622,7 +26622,7 @@ span.select2-selection.select2-selection--single:focus {
   text-align: center;
   border-radius: 50%;
   background-color: var(--white-color);
-  border: 5px solid #7D9AFF;
+  border: 5px solid #470176;
   display: block;
   margin: auto auto 22px auto;
   z-index: 2;
@@ -32654,7 +32654,7 @@ body {
 }
 
 .service_card2:after {
-  background: linear-gradient(135deg, #3e66f3, #7d5fff) !important;
+  background: linear-gradient(135deg, #5a018b, #9353cf) !important;
 }
 
 @media (min-width: 1600px) {}
