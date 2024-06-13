@@ -32597,7 +32597,7 @@ body {
 .badges-adj {
   display: flex;
   justify-content: space-around;
-  margin: 0 15vw;
+  margin: 0 25vw;
 }
 
 @media (min-width: 1024px) and (max-width: 1439.99px) {
@@ -32605,10 +32605,10 @@ body {
   /* .badges-adj {
     margin: 0 10vw;
   } */
-  .img_badges {
+  /* .img_badges {
     width: 70px !important;
     height: 70px !important;
-  }
+  } */
 }
 
 .pagination-controls .pagination .active a {
@@ -32628,8 +32628,8 @@ body {
 }
 
 .img_badges {
-  width: 100px !important;
-  height: 100px !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
   border-radius: 10px;
 }
 
@@ -32643,10 +32643,10 @@ body {
 }
 
 @media (max-width: 768px) {
-  .img_badges {
+  /* .img_badges {
     width: 50px !important;
     height: 50px !important;
-  }
+  } */
 
   .badges-adj {
     margin: 0 15vw;
