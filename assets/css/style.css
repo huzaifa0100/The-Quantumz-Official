@@ -9250,7 +9250,7 @@ blockquote.has-very-dark-gray-color {
 .blog-single .blog-video {
   position: relative;
   overflow: hidden;
-  background-color: var(--smoke-color);
+  /* background-color: var(--smoke-color); */
 }
 
 .blog-single .blog-img .slick-arrow {
