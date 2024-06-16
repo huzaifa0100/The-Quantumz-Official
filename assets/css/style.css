@@ -32115,7 +32115,7 @@ span.select2-selection.select2-selection--single:focus {
     top: 6rem !important;
     left: 150px !important;
   }
-  
+
   .arrow_02 {
     top: 6rem !important;
     left: 220px !important;
@@ -32152,7 +32152,7 @@ span.select2-selection.select2-selection--single:focus {
     top: 6rem !important;
     left: 150px !important;
   }
-  
+
   .arrow_02 {
     top: 6rem !important;
     left: 220px !important;
@@ -32195,12 +32195,12 @@ span.select2-selection.select2-selection--single:focus {
     top: 6rem !important;
     left: 100px !important;
   }
-  
+
   .arrow_02 {
     top: 6rem !important;
     left: 170px !important;
   }
-  
+
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 100px !important;
@@ -32236,7 +32236,7 @@ span.select2-selection.select2-selection--single:focus {
     top: 6rem !important;
     left: 50px !important;
   }
-  
+
   .arrow_02 {
     top: 6rem !important;
     left: 120px !important;
@@ -32268,11 +32268,12 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 50px !important;
+    height: 110vh !important;
   }
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 9.00rem 0px;
-    height: 450px !important;
+    height: 500px !important;
     width: 450px !important;
     padding: 20px 0px !important;
   }
@@ -32284,12 +32285,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Large mobile devices */
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 600px) and (max-width: 767.99px) {
 
   /* Your styles for large mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 450px;
+    height: 500px;
     width: 400px;
     /* padding-left: 50px !important; */
   }
@@ -32312,16 +32313,17 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 2vw !important;
+    height: 115vh !important;
   }
 }
 
 /* Medium mobile devices */
-@media only screen and (min-width: 480px) and (max-width: 599px) {
+@media only screen and (min-width: 480px) and (max-width: 599.99px) {
 
   /* Your styles for medium mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 500px !important;
+    height: 570px !important;
     width: 300px !important;
     padding: 0px 0px !important;
   }
@@ -32349,12 +32351,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Small mobile devices */
-@media only screen and (min-width: 321px) and (max-width: 479px) {
+@media only screen and (min-width: 321px) and (max-width: 479.99px) {
 
   /* Your styles for small mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 570px !important;
+    height: 660px !important;
     width: 250px !important;
     padding: 0px 0px !important;
   }
@@ -32377,15 +32379,15 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 20vw !important;
-    height: 700px !important;
+    height: 750px !important;
   }
 }
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 320.99px) {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 550px !important;
+    height: 660px !important;
     width: 250px !important;
     padding: 0px 0px !important;
   }
@@ -32406,7 +32408,7 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container {
     padding-left: 40px !important;
-    height: 700px !important;
+    height: 750px !important;
   }
 
 }
@@ -32597,19 +32599,9 @@ body {
 .badges-adj {
   display: flex;
   justify-content: space-around;
-  margin: 0 25vw;
+  margin: 0 20vw;
 }
 
-@media (min-width: 1024px) and (max-width: 1439.99px) {
-
-  /* .badges-adj {
-    margin: 0 10vw;
-  } */
-  /* .img_badges {
-    width: 70px !important;
-    height: 70px !important;
-  } */
-}
 
 .pagination-controls .pagination .active a {
   background-color: #3e66f3 !important;
@@ -32628,8 +32620,8 @@ body {
 }
 
 .img_badges {
-  max-width: 100px !important;
-  max-height: 100px !important;
+  max-width: 100px;
+  max-height: 100px;
   border-radius: 10px;
 }
 
@@ -32642,16 +32634,6 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
-  /* .img_badges {
-    width: 50px !important;
-    height: 50px !important;
-  } */
-
-  .badges-adj {
-    margin: 0 15vw;
-  }
-}
 
 .service_card2:after {
   background: linear-gradient(135deg, #5a018b, #9353cf) !important;
@@ -32801,20 +32783,67 @@ body {
   border-radius: 50rem;
 }
 
-.sol_bg{
+.sol_bg {
   background-color: #f3f3f4;
 }
 
-.th-bttn{
+.th-bttn {
   background-color: #141d38 !important;
 }
 
-.top_mg{
+.top_mg {
   margin-top: -1vh;
 }
+
+
+@media screen and (min-width: 785px) and (max-width: 991.99px) {
+  .badges-adj {
+    margin: 0px 15vw !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 784.99px) {
+  .badges-adj {
+    margin: 0px 10vw !important;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 767.99px) {
+
+  .badges-adj {
+    margin: 0px 10vw !important;
+  }
+
+  .img_badges {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+
+@media screen and (max-width: 529.99px) {
+
+  .d_none {
+    display: none !important
+  }
+
+  .d_block {
+    display: block !important
+  }
+}
+
+/* @media screen and (max-width: 529.99px) {
+
+  .d_none{
+    display: none !important
+  }
+
+} */
+
+
 
 .th-btn.th-bttn:before,
 .th-btn.th-bttn:after {
   background-color: var(--theme-color) !important;
 }
+
 /*# sourceMappingURL=style.css.map */
