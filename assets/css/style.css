@@ -32841,8 +32841,8 @@ body {
 
 .logos_mod{
   /* max-height: 50px; */
-  height: 10rem;
-  width: 15rem;
+  height: 100px !important;
+  /* width: 15rem; */
 }
 
 .th-btn.th-bttn:before,
