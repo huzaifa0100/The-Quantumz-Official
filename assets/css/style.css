@@ -22171,7 +22171,7 @@ span.select2-selection.select2-selection--single:focus {
   left: 0;
   bottom: 0px;
   background-color: #EFF1F9;
-  padding: 30px 80px;
+  padding: 30px 40px;
   padding-left: 0px !important;
   max-width: 1163px;
   border-radius: 0 50px 50px 0px;
@@ -32839,7 +32839,11 @@ body {
 
 } */
 
-
+.logos_mod{
+  /* max-height: 50px; */
+  height: 10rem;
+  width: 15rem;
+}
 
 .th-btn.th-bttn:before,
 .th-btn.th-bttn:after {
