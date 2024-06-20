@@ -32850,4 +32850,10 @@ body {
   background-color: var(--theme-color) !important;
 }
 
+@media screen and ( max-width: 991.99px ) {
+  .service_card2 {
+    height: auto !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
