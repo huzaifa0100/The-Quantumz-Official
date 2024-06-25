@@ -18179,7 +18179,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .team-card:hover .team-content {
   background-color: var(--theme-color);
-  box-shadow: 0px 6px 20px rgba(0, 96, 255, 0.6);
+  box-shadow: 0px 6px 20px rgba(75, 0, 130, 0.6);
 }
 
 .team-card:hover .box-title {
