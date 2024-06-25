@@ -1167,3 +1167,9 @@ document.addEventListener('DOMContentLoaded', function () {
     showPage(1); // Initialize the first page view
 });
 
+
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
