@@ -4,7 +4,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the form fields and remove whitespace.
     $name = strip_tags(trim($_POST["name"]));
-    $name = str_replace(array("\r","\n"),array(" "," "),$name);
+    $name = str_replace(array("\r", "\n"), array(" ", " "), $name);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $subject = trim($_POST["subject"]);
     $number = trim($_POST["number"]);
@@ -19,8 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Set the recipient email address.
-    // FIXME: Update this to your desired email address.
-    $recipient = "quantumz@gmail.com";
+    $recipient = "huzi.captain@gmail.com"; // Update this to your desired email address.
 
     // Set the email subject.
     $email_subject = "New contact from $subject";
@@ -28,11 +27,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Build the email content.
     $email_content = "Name: $name\n";
     $email_content .= "Subject: $subject\n";
-    $email_content .= "Email: $email\n\n";
+    $email_content .= "Email: $email\n";
+    $email_content .= "Phone: $number\n\n";
     $email_content .= "Message:\n$message\n";
 
     // Build the email headers.
-    $email_headers = "From: $name <$email>";
+    $email_headers = "From: $name <$email>\r\n";
+    $email_headers .= "Reply-To: $email\r\n";
+    $email_headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     // Send the email.
     if (mail($recipient, $email_subject, $email_content, $email_headers)) {
@@ -43,12 +45,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Set a 500 (internal server error) response code.
         http_response_code(500);
         echo "Oops! Something went wrong and we couldn't send your message.";
+        error_log("Mail send failed for: $email_subject");
     }
 
 } else {
     // Not a POST request, set a 403 (forbidden) response code.
     http_response_code(403);
     echo "There was a problem with your submission, please try again.";
+    error_log("Invalid request method");
 }
 
 ?>
