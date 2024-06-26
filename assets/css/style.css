@@ -22235,7 +22235,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .checklist li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 .checklist.style7 ul li {
@@ -32866,5 +32866,15 @@ body {
   color: var(--theme-color);
   font-size: 2rem;
 }
+.strg_st{
+  font-weight: 1rem;
+}
 
+.mb-60{
+  margin-bottom: 60px;
+}
+
+strong{
+  color: #1D001D;
+}
 /*# sourceMappingURL=style.css.map */
