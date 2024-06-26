@@ -99,77 +99,8 @@
                 </div>
             </div>
         </div>
-    </div> <!--==============================
-    Sidemenu
-============================== -->
-    <div class="sidemenu-wrapper ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart</h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_1.jpg" alt="Cart Image">Gaming Computer</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_2.jpg" alt="Cart Image">Smartphone Vivo V9</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_3.jpg" alt="Cart Image">SanDisk Flash Drive</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_4.jpg" alt="Cart Image">Smart Power Bank</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/product_thumb_1_5.jpg" alt="Cart Image">Apple Smartwatch</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons btn-wrap">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
+    <!--==============================
     Mobile Menu
   ============================== -->
   <div class="th-menu-wrapper">
@@ -185,12 +116,12 @@
                 <li class="menu-item-has-children"><a href="#">Services</a>
                     <ul class="sub-menu">
                         <li><a href="pages/services/csd_services.html">Custom Software Development</a></li>
+                        <li><a href="pages/services/ai_services.html">Generative AI</a></li>
                         <li><a href="pages/services/mad_services.html">Mobile App Development</a></li>
                         <li><a href="pages/services/dh_services.html">Digital Health</a></li>
                         <li><a href="pages/services/bc_services.html">Blockchain</a></li>
                         <li><a href="pages/services/mi_services.html">Metaverse Infinitum</a></li>
                         <li><a href="pages/services/drt_services.html">Dedicated Remote Teams</a></li>
-                        <li><a href="pages/services/ai_services.html">Artificial Intelligence</a></li>
                         <li><a href="pages/services/cs_services.html">Cloud Services</a></li>
                         <li><a href="pages/services/con_services.html">Consultancy</a></li>
                         <li><a href="pages/services/dm_services.html">Digital Marketing</a></li>
@@ -200,16 +131,17 @@
                 <li class="menu-item-has-children"><a href="#">Solutions</a>
                     <ul class="sub-menu">
                         <li><a href="solutions.html">Telemedicine</a></li>
-                        <li><a href="index.html#about-sec1">AI powered platform for radiation therapy</a></li>
-                        <li><a href="index.html#about-sec1">AI powered EMR solution</a></li>
+                        <li><a onclick="scrollToSection('about-sec1')">AI powered platform for radiation therapy</a>
+                        </li>
+                        <li><a onclick="scrollToSection('about-sec1')">AI powered EMR solution</a></li>
                     </ul>
                 </li>
                 <li class="menu-item-has-children"><a href="#">Engagement Model</a>
                     <ul class="sub-menu">
-                        <li><a href="blog-details.html">Be Spoke Solutions</a></li>
-                        <li><a href="blog-details.html">Off The Shelf Solutions</a></li>
-                        <li><a href="blog-details.html">Dedicated Team</a></li>
-                        <li><a href="blog-details.html">Staff Augmentation</a></li>
+                        <li><a href="pages/engagement_model/bss.html">Be Spoke Solutions</a></li>
+                        <li><a href="pages/engagement_model/otss.html">Off The Shelf Solutions</a></li>
+                        <li><a href="pages/engagement_model/dt.html">Dedicated Team</a></li>
+                        <li><a href="pages/engagement_model/sa.html">Staff Augmentation</a></li>
                     </ul>
                 </li>
                 <li>
@@ -246,21 +178,28 @@ Header Area
                                         <li>
                                             <ul>
 
-                                                <li><a href="pages/services/csd_services.html">Custom Software Development</a></li>
-                                                <li><a href="pages/services/mad_services.html">Mobile App Development</a></li>
-                                                <li><a href="pages/services/dh_services.html">Digital Health</a></li>
+                                                <li><a href="pages/services/ai_services.html">Generative AI</a></li>
+                                                <li><a href="pages/services/csd_services.html">Custom Software
+                                                        Development</a></li>
+                                                <li><a href="pages/services/mad_services.html">Mobile App
+                                                        Development</a></li>
                                                 <li><a href="pages/services/bc_services.html">Blockchain</a></li>
-                                                <li><a href="pages/services/mi_services.html">Metaverse Infinitum</a></li>
+                                                <li><a href="pages/services/mi_services.html">Metaverse
+                                                        Infinitum</a></li>
 
                                             </ul>
                                         </li>
                                         <li>
                                             <ul>
-                                                <li><a href="pages/services/drt_services.html">Dedicated Remote Teams</a></li>
-                                                <li><a href="pages/services/ai_services.html">Artificial Intelligence</a></li>
-                                                <li><a href="pages/services/cs_services.html">Cloud Services</a></li>
+                                                <li><a href="pages/services/drt_services.html">Dedicated Remote
+                                                        Teams</a></li>
+                                                <li><a href="pages/services/dh_services.html">Digital Health</a>
+                                                </li>
+                                                <li><a href="pages/services/cs_services.html">Cloud Services</a>
+                                                </li>
                                                 <li><a href="pages/services/con_services.html">Consultancy</a></li>
-                                                <li><a href="pages/services/dm_services.html">Digital Marketing</a></li>
+                                                <li><a href="pages/services/dm_services.html">Digital Marketing</a>
+                                                </li>
                                             </ul>
                                         </li>
 
@@ -272,8 +211,10 @@ Header Area
                                         <li>
                                             <ul>
                                                 <li><a href="solutions.html">Telemedicine</a></li>
-                                                <li><a href="index.html#about-sec1">AI powered platform for radiation therapy</a></li>
-                            <li><a href="index.html#about-sec1">AI powered EMR solution</a></li>
+                                                <li><a onclick="scrollToSection('about-sec1')">AI powered platform
+                                                        for radiation therapy</a></li>
+                                                <li><a onclick="scrollToSection('about-sec1')">AI powered EMR
+                                                        solution</a></li>
                                             </ul>
                                         </li>
 
@@ -283,10 +224,13 @@ Header Area
                                     <ul class="mega-menu w-25" style="left: 60% !important;">
                                         <li>
                                             <ul>
-                                                <li><a href="blog-details.html">Be Spoke Solutions</a></li>
-                                                <li><a href="blog-details.html">Off The Shelf Solutions</a></li>
-                                                <li><a href="blog-details.html">Dedicated Team</a></li>
-                                                <li><a href="blog-details.html">Staff Augmentation</a></li>
+                                                <li><a href="pages/engagement_model/bss.html">Be Spoke Solutions</a>
+                                                </li>
+                                                <li><a href="pages/engagement_model/otss.html">Off The Shelf
+                                                        Solutions</a></li>
+                                                <li><a href="pages/engagement_model/dt.html">Dedicated Team</a></li>
+                                                <li><a href="pages/engagement_model/sa.html">Staff Augmentation</a>
+                                                </li>
 
                                             </ul>
                                         </li>
@@ -331,7 +275,8 @@ Header Area
             </div>
         </div>
     </div>
-</header><!--==============================
+</header>
+<!--==============================
     Breadcumb
 ============================== -->
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
