@@ -32862,4 +32862,9 @@ body {
   }
 }
 
+.start_head{
+  color: var(--theme-color);
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
