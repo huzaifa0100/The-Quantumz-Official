@@ -32874,6 +32874,20 @@ body {
   margin-bottom: 60px;
 }
 
+/* .size_ic{
+  font-size: 5rem !important;
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+}
+.size_ic:hover{
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+} */
+
+.size_ic{
+  font-size: 5rem !important;
+}
+
 strong{
   color: #1D001D;
 }
