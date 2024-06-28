@@ -32094,7 +32094,7 @@ span.select2-selection.select2-selection--single:focus {
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
   background: white !important;
   border-radius: 10px;
-  padding: 30px 0px !important;
+  padding: 0.5rem 0px !important;
 }
 
 /* Media Queries for Different Screen Sizes */
@@ -32173,7 +32173,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
 /* Desktops and laptops */
@@ -32325,9 +32325,9 @@ span.select2-selection.select2-selection--single:focus {
   /* Your styles for medium mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 570px !important;
+    height: 600px !important;
     width: 300px !important;
-    padding: 0px 0px !important;
+    /* padding: 0px 0px !important; */
   }
 
   .btn01 {
@@ -32357,9 +32357,9 @@ span.select2-selection.select2-selection--single:focus {
   /* Your styles for small mobile devices */
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 660px !important;
+    height: 700px !important;
     width: 250px !important;
-    padding: 0px 0px !important;
+    /* padding: 0px 0px !important; */
   }
 
   .btn01 {
@@ -32387,9 +32387,9 @@ span.select2-selection.select2-selection--single:focus {
 
   .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hero-style6 {
     margin: 4.25rem 0px;
-    height: 660px !important;
+    height: 700px !important;
     width: 250px !important;
-    padding: 0px 0px !important;
+    /* padding: 0px 0px !important; */
   }
 
   .btn01 {
@@ -32902,6 +32902,10 @@ body {
 
 strong {
   color: #1D001D;
+}
+
+.h-30{
+  height: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
