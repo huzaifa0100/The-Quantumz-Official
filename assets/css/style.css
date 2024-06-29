@@ -32169,12 +32169,12 @@ span.select2-selection.select2-selection--single:focus {
     padding: 20px 0px !important;
   }
 
-  
+
 }
 
 .th-hero-wrapper.hero-6 .swiper .swiper-wrapper .swiper-slide .container .hr-6 {
-    font-size: 1.2rem;
-  }
+  font-size: 1.2rem;
+}
 
 /* Desktops and laptops */
 @media only screen and (min-width: 1440px) and (max-width: 1919.99px) {
@@ -32693,7 +32693,7 @@ body {
     min-height: 0px;
   }
 
-  .achivement-tab{
+  .achivement-tab {
     background-color: transparent !important;
   }
 
@@ -32718,7 +32718,8 @@ body {
   .service_card2 {
     height: 45vh;
   }
-  .process-card{
+
+  .process-card {
     max-width: 270px
   }
 }
@@ -32904,8 +32905,34 @@ strong {
   color: #1D001D;
 }
 
-.h-30{
+.h-30 {
   height: 30%;
 }
+
+.hide-above-425 {
+  display: none;
+}
+
+.hide-below-425 {
+  display: block;
+}
+
+@media (min-width: 426px) {
+  .hide-above-425 {
+    display: block !important;
+  }
+
+  .hide-below-425 {
+    display: none !important;
+  }
+}
+
+/* .ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+
+} */
 
 /*# sourceMappingURL=style.css.map */
